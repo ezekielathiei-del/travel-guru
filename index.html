@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Travel Guru, Travel More. Live More. Discover extraordinary destinations, cultures and unforgettable experiences.">
+  <title>Travel Guru | Travel More. Live More.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"> <link rel="stylesheet" href="legal.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav container">
+      <a class="brand logo-brand" href="#top" aria-label="Travel Guru home"><img src="travel-guru-logo.png" alt="Travel Guru"></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#destinations">Destinations</a><a href="#packages">Packages</a><a href="#trip-builder">Build a Trip</a>
+        <a href="#philosophy">Philosophy</a>
+        <a href="#booking" class="nav-cta">Plan a Journey</a><a class="nav-wa" id="navWhatsApp" href="#" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">TRAVEL • DISCOVER • EXPERIENCE</p>
+        <h1>Travel More.<br><em>Live More.</em></h1>
+        <p class="hero-text">Extraordinary journeys, meaningful experiences, and unforgettable memories, curated around you.</p>
+        <div class="hero-actions">
+          <a href="#experiences" class="btn btn-primary">Explore Experiences <span>→</span></a>
+          <a href="#about" class="btn btn-ghost">Discover Travel Guru</a>
+        </div>
+      </div>
+      <div class="scroll-hint">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="intro section" id="about">
+      <div class="container intro-grid">
+        <div>
+          <p class="eyebrow accent">WELCOME TO TRAVEL GURU</p>
+          <h2>Travel is more than a destination.</h2>
+        </div>
+        <div class="intro-copy">
+          <p class="lead">It is about discovering the world, experiencing different cultures, creating lasting memories, and living life to the fullest.</p>
+          <p>Travel Guru is a travel and tour company dedicated to creating memorable, enriching, and seamless travel experiences for individuals, families, groups, and organisations.</p>
+          <p>We curate unique experiences that inspire people to explore more and make travel a meaningful part of their lifestyle. From exciting getaways and unforgettable safaris to cultural experiences, adventure travel, beach holidays, and tailor-made journeys, we connect our clients to experiences that leave a lasting impression.</p>
+          <p>Our goal is to take the stress out of travel while adding the fun, discovery, comfort, and excitement that make every journey worth remembering.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="ticker" aria-label="Travel Guru experiences">
+      <div class="ticker-track">
+        <span>✦ SAFARIS</span><span>✦ BEACH ESCAPES</span><span>✦ ADVENTURE</span><span>✦ CULTURE</span><span>✦ CITY BREAKS</span><span>✦ TAILOR-MADE JOURNEYS</span>
+        <span>✦ SAFARIS</span><span>✦ BEACH ESCAPES</span><span>✦ ADVENTURE</span><span>✦ CULTURE</span><span>✦ CITY BREAKS</span><span>✦ TAILOR-MADE JOURNEYS</span>
+      </div>
+    </div>
+
+    <section class="experiences section" id="experiences">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">WHAT WE CREATE</p>
+            <h2>Journeys worth remembering.</h2>
+          </div>
+          <p>Whether you are chasing adventure, relaxation, culture, or connection, we help turn the journey into part of the story.</p>
+        </div>
+        <div class="cards">
+          <article class="experience-card card-safari">
+            <div class="card-shade"></div>
+            <div class="card-content">
+              <span>01</span>
+              <h3>Unforgettable Safaris</h3>
+              <p>Get closer to extraordinary wildlife and landscapes.</p>
+            </div>
+          </article>
+          <article class="experience-card card-adventure">
+            <div class="card-shade"></div>
+            <div class="card-content">
+              <span>02</span>
+              <h3>Adventure Travel</h3>
+              <p>Challenge yourself and collect stories worth telling.</p>
+            </div>
+          </article>
+          <article class="experience-card card-culture">
+            <div class="card-shade"></div>
+            <div class="card-content">
+              <span>03</span>
+              <h3>Cultural Experiences</h3>
+              <p>Meet people, discover traditions, and see the world differently.</p>
+            </div>
+          </article>
+          <article class="experience-card card-beach">
+            <div class="card-shade"></div>
+            <div class="card-content">
+              <span>04</span>
+              <h3>Beach Holidays</h3>
+              <p>Slow down, recharge, and enjoy beautiful escapes.</p>
+            </div>
+          </article>
+          <article class="experience-card card-tailor">
+            <div class="card-shade"></div>
+            <div class="card-content">
+              <span>05</span>
+              <h3>Tailor-Made Journeys</h3>
+              <p>A travel experience designed around your plans and passions.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="packages section" id="packages"><div class="container"><div class="section-heading dark-heading"><div><p class="eyebrow accent">FEATURED TRIPS</p><h2>Choose your next adventure.</h2></div><p>Explore our signature experiences and request a personalised quote.</p></div><div class="package-tools"><input id="packageSearch" type="search" placeholder="Search destinations..."><select id="packageType"><option value="all">All experiences</option><option value="safari">Safari</option><option value="city">City & Luxury</option><option value="beach">Beach</option><option value="culture">Culture</option></select></div><div class="package-grid" id="packageGrid">
+<article class="package-card" data-type="safari" data-search="kenya safari"><div class="package-photo kenya"></div><div class="package-body"><span class="package-tag">SAFARI</span><h3>Kenya Safari Escape</h3><p>Wildlife, landscapes and unforgettable African moments.</p><button class="package-btn" data-destination="Kenya Safari">Request a Quote →</button></div></article>
+<article class="package-card" data-type="city" data-search="dubai uae luxury"><div class="package-photo dubai"></div><div class="package-body"><span class="package-tag">CITY & LUXURY</span><h3>Dubai Getaway</h3><p>Luxury, shopping, desert adventures and iconic experiences.</p><button class="package-btn" data-destination="Dubai">Request a Quote →</button></div></article>
+<article class="package-card" data-type="beach" data-search="zanzibar beach"><div class="package-photo zanzibar"></div><div class="package-body"><span class="package-tag">BEACH</span><h3>Zanzibar Escape</h3><p>Turquoise water, white sand and a slower way to experience paradise.</p><button class="package-btn" data-destination="Zanzibar">Request a Quote →</button></div></article>
+<article class="package-card" data-type="culture" data-search="rio brazil"><div class="package-photo rio"></div><div class="package-body"><span class="package-tag">CULTURE</span><h3>Rio Experience</h3><p>Iconic sights, vibrant culture and unforgettable coastal scenery.</p><button class="package-btn" data-destination="Rio de Janeiro">Request a Quote →</button></div></article></div><p class="no-results" id="noResults">No matching experiences found.</p></div></section>
+<section class="about-travel-guru section" id="about"><div class="container about-grid"><div class="about-copy"><p class="eyebrow accent">WHY TRAVEL GURU</p><h2>Travel should feel exciting, not complicated.</h2><p>Travel Guru is built around one simple idea: make it easier for people to explore more, experience more and live more.</p><p>From a weekend escape to a once in a lifetime adventure, we bring together destinations, experiences and practical travel support around what matters to you.</p><a class="btn btn-primary" href="#trip-builder">Build Your Trip <span>→</span></a></div><div class="about-features"><article><span>01</span><div><h3>Personalised</h3><p>Your trip can be shaped around your interests, budget, dates and travel style.</p></div></article><article><span>02</span><div><h3>Reliable</h3><p>Clear communication and organised travel planning from your first enquiry onward.</p></div></article><article><span>03</span><div><h3>Memorable</h3><p>We focus on experiences that give you stories worth taking home.</p></div></article><article><span>04</span><div><h3>Global</h3><p>From African safaris to international city escapes, your next destination can start here.</p></div></article></div></div></section><section class="destinations section" id="destinations"><div class="container"><div class="section-heading"><div><p class="eyebrow accent">EXPLORE THE WORLD</p><h2>Where will you go next?</h2></div><p>Discover destinations and experiences curated for travellers who want to explore more and live more.</p></div><div class="destination-grid">
+<a class="destination-card kenya" href="#booking"><span>AFRICA</span><h3>Kenya</h3><p>Safari and unforgettable landscapes.</p><b>Explore →</b></a>
+<a class="destination-card tanzania" href="#booking"><span>AFRICA</span><h3>Tanzania</h3><p>Wildlife, Zanzibar and Serengeti.</p><b>Explore →</b></a>
+<a class="destination-card dubai" href="#booking"><span>MIDDLE EAST</span><h3>Dubai</h3><p>Luxury, desert adventures and skyline experiences.</p><b>Explore →</b></a>
+<a class="destination-card zanzibar" href="#booking"><span>INDIAN OCEAN</span><h3>Zanzibar</h3><p>Turquoise water, beaches and island culture.</p><b>Explore →</b></a>
+<a class="destination-card southafrica" href="#booking"><span>AFRICA</span><h3>South Africa</h3><p>City life, safari and coastlines.</p><b>Explore →</b></a>
+<a class="destination-card brazil" href="#booking"><span>SOUTH AMERICA</span><h3>Brazil</h3><p>Rio, culture, beaches and scenery.</p><b>Explore →</b></a></div></div></section>
+<section class="gallery section" id="gallery"><div class="container"><div class="section-heading"><div><p class="eyebrow accent">TRAVEL GALLERY</p><h2>See the world with us.</h2></div></div><div class="gallery-grid"><button class="gallery-item g1" data-gallery="Safari">Safari</button><button class="gallery-item g2" data-gallery="Dubai">Dubai</button><button class="gallery-item g3" data-gallery="Beach">Beach</button><button class="gallery-item g4" data-gallery="Adventure">Adventure</button><button class="gallery-item g5" data-gallery="Culture">Culture</button></div></div></section>
+<section class="testimonials section" id="testimonials"><div class="container"><div class="section-heading"><div><p class="eyebrow accent">TRAVELLER STORIES</p><h2>Memories made along the way.</h2></div></div><div class="testimonial-grid"><article><b>★★★★★</b><p>“Our safari was organised from start to finish and every detail felt considered.”</p><strong>Travel Guru Client</strong><small>Kenya Safari</small></article><article><b>★★★★★</b><p>“The team helped us shape a trip that matched what our family wanted.”</p><strong>Travel Guru Client</strong><small>Family Holiday</small></article><article><b>★★★★★</b><p>“Planning was simple and exciting from the first idea to the final itinerary.”</p><strong>Travel Guru Client</strong><small>Dubai Getaway</small></article></div><small class="review-note">Placeholder reviews. Replace with verified customer reviews before launch.</small></div></section>
+<section class="faq section" id="faq"><div class="container faq-grid"><div><p class="eyebrow accent">NEED TO KNOW</p><h2>Frequently asked questions.</h2></div><div class="faq-list">
+<details><summary>Can I customise a package?</summary><p>Yes. Use Build Your Trip or send us your destination, dates, experiences and budget.</p></details>
+<details><summary>Can Travel Guru arrange flights and hotels?</summary><p>These can be included in a proposal where available, with inclusions clearly shown.</p></details>
+<details><summary>Can I travel as a group?</summary><p>Yes. We can prepare trips for couples, families, friends and corporate groups.</p></details>
+<details><summary>Can you arrange transfers and activities?</summary><p>Yes. Add your requirements to the booking or custom trip form.</p></details>
+<details><summary>How do payments work?</summary><p>Payment options will be added once the preferred payment provider is confirmed.</p></details>
+<details><summary>Can I request another destination?</summary><p>Yes. Choose Other or I'm open to ideas and tell us what you have in mind.</p></details>
+</div></div></section><div class="lightbox" id="lightbox"><button id="closeLightbox">×</button><div id="lightboxImage"></div><h3 id="lightboxTitle"></h3></div>
+
+<section class="journal section" id="journal">
+  <div class="container">
+    <div class="section-heading dark-heading">
+      <div>
+        <p class="eyebrow accent">TRAVEL GURU JOURNAL</p>
+        <h2>Ideas for your next adventure.</h2>
+      </div>
+      <p>Travel inspiration, practical guides and ideas to help you make more of every journey.</p>
+    </div>
+    <div class="journal-grid">
+      <article class="journal-card">
+        <div class="journal-image journal-safari"></div>
+        <div class="journal-body">
+          <span>SAFARI GUIDE</span>
+          <h3>How to plan your first African safari</h3>
+          <p>What to consider when choosing a destination, season, accommodation and activities.</p>
+          <button class="read-article" data-article="safari">Read Guide →</button>
+        </div>
+      </article>
+      <article class="journal-card">
+        <div class="journal-image journal-dubai"></div>
+        <div class="journal-body">
+          <span>DUBAI GUIDE</span>
+          <h3>How to build the perfect Dubai getaway</h3>
+          <p>Combine city experiences, desert adventures, relaxation and time to explore at your own pace.</p>
+          <button class="read-article" data-article="dubai">Read Guide →</button>
+        </div>
+      </article>
+      <article class="journal-card">
+        <div class="journal-image journal-zanzibar"></div>
+        <div class="journal-body">
+          <span>BEACH GUIDE</span>
+          <h3>Planning a Zanzibar escape</h3>
+          <p>A simple starting point for building a beach holiday around your interests and travel style.</p>
+          <button class="read-article" data-article="zanzibar">Read Guide →</button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<div class="article-modal" id="articleModal" aria-hidden="true">
+  <div class="article-panel">
+    <button id="closeArticle" aria-label="Close article">×</button>
+    <span class="eyebrow accent" id="articleCategory"></span>
+    <h2 id="articleTitle"></h2>
+    <div id="articleContent"></div>
+    <a class="btn btn-primary" href="#trip-builder" id="articlePlan">Plan This Trip <span>→</span></a>
+  </div>
+</div>
+<section class="journey-hub section" id="booking">
+  <div class="container">
+    <div class="section-heading dark-heading journey-heading">
+      <div><p class="eyebrow accent">BOOK YOUR JOURNEY</p><h2>One place to start your next adventure.</h2></div>
+      <p>Choose a ready-made Travel Guru package or create a trip shaped around you.</p>
+    </div>
+    <div class="journey-switch" role="tablist" aria-label="Choose how to plan your journey">
+      <button type="button" class="journey-tab active" id="packageTab" role="tab" aria-selected="true" aria-controls="packagePanel" data-journey="package">Choose a Package</button>
+      <button type="button" class="journey-tab" id="customTab" role="tab" aria-selected="false" aria-controls="customTripPanel" data-journey="custom">Create a Custom Trip</button>
+    </div>
+  </div>
+  <div class="journey-panel trip-builder section" id="customTripPanel" hidden><div class="container"><div class="section-heading dark-heading"><div><p class="eyebrow accent">CREATE A CUSTOM TRIP</p><h2>Create a journey around you.</h2></div><p>Tell us what you want from your trip and Travel Guru will turn your ideas into a personalised travel proposal.</p></div><div class="builder-grid"><form id="tripBuilderForm" class="builder-form"><div class="builder-step"><span>01</span><div><h3>Where do you want to go?</h3><select id="tbDestination" required><option value="">Choose a destination</option><option>Kenya</option><option>Tanzania</option><option>Dubai</option><option>Zanzibar</option><option>South Africa</option><option>Brazil</option><option>I'm open to ideas</option></select></div></div><div class="builder-step"><span>02</span><div><h3>How long?</h3><div class="choice-row"><label><input type="radio" name="duration" value="3 to 5 days" required> 3 to 5 days</label><label><input type="radio" name="duration" value="6 to 10 days"> 6 to 10 days</label><label><input type="radio" name="duration" value="10+ days"> 10+ days</label></div></div></div><div class="builder-step"><span>03</span><div><h3>What kind of experience?</h3><div class="check-grid"><label><input type="checkbox" value="Safari"> Safari</label><label><input type="checkbox" value="Beach"> Beach</label><label><input type="checkbox" value="Luxury"> Luxury</label><label><input type="checkbox" value="Adventure"> Adventure</label><label><input type="checkbox" value="Culture"> Culture</label><label><input type="checkbox" value="Shopping"> Shopping</label></div></div></div><div class="builder-step"><span>04</span><div><h3>Who are you travelling with?</h3><select id="tbGroup"><option>Solo</option><option>Couple</option><option>Family</option><option>Friends</option><option>Corporate / Group</option></select><input id="tbTravellers" type="number" min="1" max="100" value="2" placeholder="Number of travellers"></div></div><div class="builder-step"><span>05</span><div><h3>What's your approximate budget?</h3><select id="tbBudget"><option>Under $1,000 per person</option><option>$1,000 to $2,500 per person</option><option>$2,500 to $5,000 per person</option><option>$5,000+ per person</option><option>I'm not sure yet</option></select></div></div><div class="builder-step"><span>06</span><div><h3>How can we contact you?</h3><label>Your name<input name="contactName" id="tbName" required autocomplete="name"></label><label>Email address<input name="contactEmail" id="tbEmail" type="email" required autocomplete="email"></label><label>Phone / WhatsApp<input name="contactPhone" id="tbPhone" required autocomplete="tel"></label></div></div><button class="btn btn-primary" type="submit">Build My Trip <span>→</span></button></form><aside class="trip-preview" id="tripPreview"><p class="eyebrow accent">YOUR TRIP IDEA</p><div class="preview-icon">✈</div><h3 id="previewTitle">Your adventure starts here.</h3><p id="previewText">Complete the questions and we'll prepare a personalised trip brief.</p><div class="preview-tags" id="previewTags"></div><div class="preview-total" id="previewTotal"></div></aside></div></div></div><div class="journey-panel checkout section" id="packagePanel"><div class="container"><div class="section-heading dark-heading"><div><p class="eyebrow accent">BOOK YOUR JOURNEY</p><h2>Turn your plans into a booking.</h2></div><p>Choose an experience, enter your travel details and review your estimated trip cost.</p></div><div class="checkout-grid"><form class="checkout-form" id="checkoutForm"><div class="form-row"><label>Package<select id="bookPackage" name="package" required><option value="">Select a package</option><option value="Kenya Safari Escape" data-price="850">Kenya Safari Escape · From $850/person</option><option value="Dubai Getaway" data-price="1100">Dubai Getaway · From $1,100/person</option><option value="Zanzibar Escape" data-price="650">Zanzibar Escape · From $650/person</option><option value="Rio Experience" data-price="1250">Rio Experience · From $1,250/person</option></select></label><label>Travellers<input id="bookTravellers" name="travellers" type="number" min="1" max="30" value="2" required></label></div><div class="form-row"><label>Travel date<input name="date" type="date" required></label><label>Return date<input name="returnDate" type="date" required></label></div><div class="form-row"><label>Full name<input name="name" required></label><label>Email<input name="email" type="email" required></label></div><div class="form-row"><label>Phone / WhatsApp<input name="phone" required></label><label>Room<select name="room"><option>Standard</option><option>Premium</option><option>Luxury</option></select></label></div><label>Special requests<textarea name="notes" rows="4" placeholder="Activities, airport transfers, celebrations, dietary requirements..."></textarea></label><button class="btn btn-primary" type="submit">Create Booking Request <span>→</span></button></form><aside class="booking-summary"><p class="eyebrow accent">BOOKING SUMMARY</p><h3 id="summaryPackage">Choose a package</h3><div class="summary-line"><span>Travellers</span><strong id="summaryTravellers">2</strong></div><div class="summary-line"><span>Estimated total</span><strong id="summaryTotal">$0</strong></div><div class="summary-line deposit"><span>30% deposit</span><strong id="summaryDeposit">$0</strong></div><p class="summary-note">Starting estimates only. Final pricing depends on dates, accommodation, flights, activities and availability.</p></aside></div><div class="booking-confirmation" id="bookingConfirmation"><div class="confirmation-icon">✓</div><p class="eyebrow accent">BOOKING REQUEST CREATED</p><h3>You're on your way.</h3><p>Your booking reference is <strong id="bookingReference"></strong>.</p><button class="btn btn-primary" id="emailBooking">Email Booking Details <span>→</span></button><a class="btn btn-whatsapp" id="bookingWhatsApp" target="_blank">Send Reference on WhatsApp <span>↗</span></a></div></div>
+</section><!-- The enquiry dashboard is kept on the separate admin.html page. -->
+<section class="values section" id="philosophy">
+      <div class="container values-grid">
+        <div class="values-image">
+          <div class="image-label">TRAVEL GURU</div>
+        </div>
+        <div class="values-copy">
+          <p class="eyebrow accent">OUR PHILOSOPHY</p>
+          <h2>Make travel your lifestyle.</h2>
+          <p class="lead">Every journey is an opportunity to discover something new, meet new people, experience different cultures, challenge yourself, and create stories that last a lifetime.</p>
+          <div class="beliefs">
+            <div><b>01</b><span>Travel is a way of life.</span></div>
+            <div><b>02</b><span>Every journey should feel meaningful.</span></div>
+            <div><b>03</b><span>Great memories are worth the journey.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="vision section">
+      <div class="container vision-inner">
+        <p class="eyebrow">OUR VISION</p>
+        <h2>To inspire a world where travel is a lifestyle, connecting people to extraordinary experiences, cultures, and destinations across the globe.</h2>
+      </div>
+    </section>
+
+    <section class="mission section">
+      <div class="container mission-grid">
+        <div>
+          <p class="eyebrow accent">OUR MISSION</p>
+          <h2>Explore more.<br>Experience more.<br><em>Live more.</em></h2>
+        </div>
+        <p class="mission-copy">To create exceptional and memorable travel experiences by delivering personalised, reliable, and innovative travel solutions that inspire our clients to explore more, experience more, and live more.</p>
+      </div>
+    </section>
+
+    <section class="cta section" id="contact">
+      <div class="container cta-box">
+        <p class="eyebrow">YOUR NEXT STORY STARTS HERE</p>
+        <h2>Where will you go next?</h2>
+        <p>Let Travel Guru help you turn your next trip into an experience you will never forget.</p>
+        <a class="btn btn-primary" href="mailto:hello@travelguru.com">Start Planning <span>→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <a class="brand logo-brand" href="#top" aria-label="Travel Guru home"><img src="travel-guru-logo.png" alt="Travel Guru"></a>
+      <p>Travel More. Live More.</p>
+      <p>© <span id="year"></span> Travel Guru. All rights reserved.</p>
+      <nav class="footer-legal" aria-label="Legal information">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+        <a href="cancellation-refund-policy.html">Cancellation &amp; Refunds</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script type="module" src="backend.js"></script>
+</body>
+</html>
