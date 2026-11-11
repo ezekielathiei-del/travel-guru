@@ -15,3 +15,7 @@ The package is a front-end integration and database setup kit. It does not creat
 
 
 Latest update: The public website now has one central Book Your Journey section with two options: Choose a Package or Create a Custom Trip. The former standalone Plan With Us enquiry section has been removed. The admin page remains separate.
+
+
+EMAIL NOTIFICATIONS
+See EMAIL_NOTIFICATIONS_SETUP.md. Requires Resend, a verified sender domain, Edge Function secrets, the email log SQL, and Supabase Edge Function deployment.

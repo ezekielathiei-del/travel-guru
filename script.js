@@ -48,3 +48,19 @@ document.querySelectorAll(".read-article").forEach(b=>b.addEventListener("click"
 document.getElementById("closeArticle")?.addEventListener("click",()=>{articleModal.classList.remove("show");articleModal.setAttribute("aria-hidden","true")});
 articleModal?.addEventListener("click",e=>{if(e.target===articleModal){articleModal.classList.remove("show");articleModal.setAttribute("aria-hidden","true")}});
 document.querySelectorAll(".nav-links a").forEach(x=>x.addEventListener("click",()=>document.querySelector(".nav-links")?.classList.remove("open")));
+// Header "Build a Trip" opens the custom trip builder in the booking section.
+const headerBuildTrip = document.getElementById('headerBuildTrip');
+headerBuildTrip?.addEventListener('click', () => {
+  const bookingSection = document.getElementById('booking');
+  const packagePanel = document.getElementById('packagePanel');
+  const customPanel = document.getElementById('customTripPanel');
+  const packageTab = document.getElementById('packageTab');
+  const customTab = document.getElementById('customTab');
+  if (packagePanel) packagePanel.hidden = true;
+  if (customPanel) customPanel.hidden = false;
+  packageTab?.classList.remove('active');
+  packageTab?.setAttribute('aria-selected', 'false');
+  customTab?.classList.add('active');
+  customTab?.setAttribute('aria-selected', 'true');
+  bookingSection?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+});

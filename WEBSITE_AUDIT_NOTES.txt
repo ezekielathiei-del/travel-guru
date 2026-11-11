@@ -1,0 +1,13 @@
+TRAVEL GURU - WEBSITE AUDIT UPDATE
+
+Fixes applied:
+1. Changed the duplicate About section ID to a unique ID.
+2. Connected the Start Planning call-to-action to the central booking section while retaining its original button classes and styling.
+3. Updated Build a Trip navigation links so they reveal the hidden custom trip builder and scroll to it, rather than pointing to a non-existent target.
+4. Preserved the existing Supabase configuration, booking flow, admin dashboard, schema, and legal draft pages.
+
+Important:
+- The supplied archive still contains placeholder business contact details (hello@travelguru.com and WhatsApp 254700000000). Replace these with the client's confirmed details before launch.
+- Legal pages remain draft templates pending the client's jurisdiction, company details and confirmed policies, plus appropriate legal review.
+- This package does not add payment processing, email notifications, CAPTCHA, or live hosting.
+- The uploaded ZIP's Start Planning link was still a mailto link. This update points it to #booking; retain this updated ZIP as your new working copy.
