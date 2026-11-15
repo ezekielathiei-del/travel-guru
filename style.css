@@ -229,3 +229,9 @@ footer .brand-mark{border-color:#08a94f}
 .safari-photo:hover{transform:translateY(-3px);filter:brightness(1.08);}
 @media(max-width:900px){.safari-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
 @media(max-width:600px){.safari-inline-gallery{padding:14px;margin-top:18px}.safari-photo-grid{grid-template-columns:1fr 1fr;gap:9px}.safari-photo{min-height:145px;}}
+
+/* Vercel-safe Safari gallery images: use actual img elements instead of CSS backgrounds. */
+.safari-photo{position:relative;display:block;overflow:hidden;padding:0;background:#252a27;min-height:190px;aspect-ratio:4/3}
+.safari-photo img{display:block;width:100%;height:100%;min-height:inherit;object-fit:cover;object-position:center}
+.safari-photo:hover img{filter:brightness(1.06)}
+@media(max-width:600px){.safari-photo{min-height:145px;aspect-ratio:1/1}}
