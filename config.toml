@@ -1,0 +1,2 @@
+[functions.travel-notifications]
+verify_jwt = false
